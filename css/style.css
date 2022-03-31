@@ -1,0 +1,25 @@
+/* at the begining, it's so useful to determinate padding and margin at 0: I have to put this setting at the begining for evrery CCS file */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border-radius: 30px;
+}
+
+/* it's my box that contains my JS setting  */
+#commande{
+    width: 280px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: rgb(161, 158, 158);
+    padding: 20px;
+
+}
+/* this is my second box that contains my thanks message */
+#message{
+    width: 280px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: rgb(161, 158, 158);
+    padding: 20px;
+}
